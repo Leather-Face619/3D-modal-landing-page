@@ -3,14 +3,21 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>3D model</title>
+  <title>3D model/</title>
   
-  <link href="https://cdn.tailwindcss.com" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
-<canvas id="canvas"></canvas>
-  
+  <div class="main w-full">
+    <div class="w-full h-screen overflow-hidden">
+        <img src="./cc.png" alt="Centered Image" style=" position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 70%; mix-blend-mode: screen; filter: contrast(250%);" />
+        <canvas id="canvas"></canvas>
+    </div>
+
+    <div class="w-full h-screen bg-zinc-800"></div> 
+</div>
 </body>
 
 
